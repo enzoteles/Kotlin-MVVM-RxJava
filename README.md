@@ -1,1 +1,3 @@
 # Kotlin-MVVM-RxJava
+
+Esse projeto tem como objetivo de mostra uma proposta de arquitetura com MVVM, utilizando a linguagem de programação Kotlin, os frameworks RXJava e Dagger 2 e os componentes de Arquitetura LiveDate, ViewModel e LifecycleOwner. Este projeto tem finalidade de ajudar os desenvolvedores que gostariam de se adaptar com os novos padrões de arquitetura que foi apresentando no Google I/O 2017. Esse projeto tem um objetivo de utilizar uma arquitetura clean onde pode ser baixado para ser utilizado em projetos pessoais e projetos profissionais, onde é fácil de entender e fácil de dar manutenção.
