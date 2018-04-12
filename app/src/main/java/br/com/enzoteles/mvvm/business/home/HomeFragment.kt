@@ -32,7 +32,7 @@ class HomeFragment: Fragment(){
     lateinit var adapter: HomeAdapter
 
     override fun onCreateView(inflater: LayoutInflater?, container: ViewGroup?, savedInstanceState: Bundle?): View {
-        var view  = inflater!!.inflate(R.layout.details_item, container, false )
+        var view  = inflater!!.inflate(R.layout.home, container, false )
         return view
     }
 
