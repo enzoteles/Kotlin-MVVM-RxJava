@@ -67,7 +67,9 @@ class HomeFragment: Fragment(){
         })
     }
 
-
+    /**
+     * Método que popula o adapter com a lista de próximos jogos
+     * */
     private fun initProximos(proximos: List<ProximosItem?>?) {
 
         val homeComponent = DaggerOnHomeComponent.builder().homeModule(HomeModule(proximos, activity.baseContext)).build()
