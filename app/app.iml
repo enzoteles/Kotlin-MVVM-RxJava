@@ -43,8 +43,8 @@
           </option>
           <option name="pluginClasspaths">
             <array>
-              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-android-extensions/1.2.30/680ff8d567db8dec157cd9344f0a1d2b5e4d651b/kotlin-android-extensions-1.2.30.jar" />
-              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-annotation-processing-gradle/1.2.30/75c470067bc6c79bddeaa63ba15a1ce39db2d24a/kotlin-annotation-processing-gradle-1.2.30.jar" />
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-android-extensions/1.2.10/10eb9a3d66aa7c5e17afdf93116082018d0d4643/kotlin-android-extensions-1.2.10.jar" />
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-annotation-processing-gradle/1.2.10/4152af9baeb52652a3abcaff73a8d5f8ba736d5a/kotlin-annotation-processing-gradle-1.2.10.jar" />
             </array>
           </option>
         </compilerArguments>
@@ -189,12 +189,14 @@
     <orderEntry type="library" name="android.arch.persistence.room:common:1.0.0@jar" level="project" />
     <orderEntry type="library" scope="TEST" name="classworlds:classworlds:1.1-alpha-2@jar" level="project" />
     <orderEntry type="library" name="com.squareup.retrofit2:converter-gson:2.3.0@jar" level="project" />
+    <orderEntry type="library" name="org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.2.10@jar" level="project" />
     <orderEntry type="library" name="com.android.support:support-media-compat-26.1.0" level="project" />
     <orderEntry type="library" scope="TEST" name="com.google.code.gson:gson:2.8.0@jar" level="project" />
     <orderEntry type="library" scope="TEST" name="org.codehaus.plexus:plexus-interpolation:1.11@jar" level="project" />
     <orderEntry type="library" scope="TEST" name="org.apache.maven:maven-repository-metadata:2.2.1@jar" level="project" />
     <orderEntry type="library" name="android.arch.lifecycle:extensions-1.0.0" level="project" />
     <orderEntry type="library" name="com.squareup.okhttp:okhttp:2.5.0@jar" level="project" />
+    <orderEntry type="library" name="org.jetbrains.kotlin:kotlin-stdlib:1.2.10@jar" level="project" />
     <orderEntry type="library" scope="TEST" name="org.robolectric:shadows-framework:3.6.1@jar" level="project" />
     <orderEntry type="library" scope="TEST" name="org.robolectric:resources:3.6.1@jar" level="project" />
     <orderEntry type="library" scope="TEST" name="com.google.guava:guava:20.0@jar" level="project" />
@@ -214,7 +216,6 @@
     <orderEntry type="library" scope="TEST" name="org.apache.maven:maven-ant-tasks:2.1.3@jar" level="project" />
     <orderEntry type="library" scope="TEST" name="nekohtml:nekohtml:1.9.6.2@jar" level="project" />
     <orderEntry type="library" name="org.reactivestreams:reactive-streams:1.0.0@jar" level="project" />
-    <orderEntry type="library" name="org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.2.30@jar" level="project" />
     <orderEntry type="library" scope="TEST" name="org.apache.maven:maven-artifact:2.2.1@jar" level="project" />
     <orderEntry type="library" name="android.arch.core:runtime-1.0.0" level="project" />
     <orderEntry type="library" scope="TEST" name="org.apache.maven:maven-model:2.2.1@jar" level="project" />
@@ -225,7 +226,6 @@
     <orderEntry type="library" name="com.android.support:support-vector-drawable-26.1.0" level="project" />
     <orderEntry type="library" scope="TEST" name="org.ow2.asm:asm-commons:5.0.1@jar" level="project" />
     <orderEntry type="library" scope="TEST" name="org.robolectric:annotations:3.6.1@jar" level="project" />
-    <orderEntry type="library" name="org.jetbrains.kotlin:kotlin-stdlib:1.2.30@jar" level="project" />
     <orderEntry type="library" scope="TEST" name="org.codehaus.plexus:plexus-utils:1.5.15@jar" level="project" />
     <orderEntry type="library" name="android.arch.persistence:db-1.0.0" level="project" />
     <orderEntry type="library" scope="TEST" name="org.robolectric:utils:3.6.1@jar" level="project" />
