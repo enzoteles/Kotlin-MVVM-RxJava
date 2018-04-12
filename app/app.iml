@@ -116,26 +116,18 @@
       <sourceFolder url="file://$MODULE_DIR$/src/test/java" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/test/rs" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/test/shaders" isTestSource="true" />
-      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/assets" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/blame" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/check-manifest" />
-      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/classes" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/data-binding" />
-      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/data-binding-compiler" />
-      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/data-binding-info" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/incremental" />
-      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/javaPrecompile" />
-      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/jniLibs" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/lint" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/manifests" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/prebuild" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/res" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/rs" />
-      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/shaders" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/splits-support" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/symbols" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/tmp" />
-      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/transforms" />
       <excludeFolder url="file://$MODULE_DIR$/build/kotlin" />
       <excludeFolder url="file://$MODULE_DIR$/build/outputs" />
       <excludeFolder url="file://$MODULE_DIR$/build/tmp" />
@@ -161,13 +153,13 @@
     <orderEntry type="library" name="com.squareup.okhttp3:okhttp:3.8.0@jar" level="project" />
     <orderEntry type="library" scope="TEST" name="org.hamcrest:hamcrest-integration:1.3@jar" level="project" />
     <orderEntry type="library" name="android.arch.paging:common:1.0.0-alpha4-1@jar" level="project" />
-    <orderEntry type="library" name="com.android.databinding:library-3.1.0" level="project" />
+    <orderEntry type="library" name="com.android.databinding:library-3.1.1" level="project" />
     <orderEntry type="library" scope="TEST" name="net.sf.kxml:kxml2:2.3.0@jar" level="project" />
     <orderEntry type="library" name="com.squareup.picasso:picasso:2.5.2@jar" level="project" />
     <orderEntry type="library" scope="TEST" name="org.robolectric:shadowapi:3.6.1@jar" level="project" />
     <orderEntry type="library" scope="TEST" name="org.codehaus.plexus:plexus-container-default:1.0-alpha-9-stable-1@jar" level="project" />
     <orderEntry type="library" scope="TEST" name="org.bouncycastle:bcprov-jdk15on:1.52@jar" level="project" />
-    <orderEntry type="library" name="com.android.databinding:adapters-3.1.0" level="project" />
+    <orderEntry type="library" name="com.android.databinding:adapters-3.1.1" level="project" />
     <orderEntry type="library" scope="TEST" name="com.android.support.test.espresso:espresso-core-3.0.1" level="project" />
     <orderEntry type="library" name="com.android.support:support-fragment-26.1.0" level="project" />
     <orderEntry type="library" name="com.google.dagger:dagger:2.5@jar" level="project" />
@@ -178,7 +170,6 @@
     <orderEntry type="library" name="android.arch.persistence.room:runtime-1.0.0" level="project" />
     <orderEntry type="library" name="com.squareup.okhttp:okhttp-urlconnection:2.5.0@jar" level="project" />
     <orderEntry type="library" scope="TEST" name="org.apache.maven:maven-error-diagnostics:2.2.1@jar" level="project" />
-    <orderEntry type="library" name="com.android.databinding:baseLibrary:3.1.0@jar" level="project" />
     <orderEntry type="library" name="com.squareup.retrofit2:retrofit:2.3.0@jar" level="project" />
     <orderEntry type="library" name="io.reactivex.rxjava2:rxandroid-2.0.1" level="project" />
     <orderEntry type="library" scope="TEST" name="org.apache.maven:maven-artifact-manager:2.2.1@jar" level="project" />
@@ -221,6 +212,7 @@
     <orderEntry type="library" scope="TEST" name="org.apache.maven:maven-model:2.2.1@jar" level="project" />
     <orderEntry type="library" scope="TEST" name="junit:junit:4.12@jar" level="project" />
     <orderEntry type="library" name="com.squareup.okhttp3:logging-interceptor:3.6.0@jar" level="project" />
+    <orderEntry type="library" name="com.android.databinding:baseLibrary:3.1.1@jar" level="project" />
     <orderEntry type="library" name="javax.inject:javax.inject:1@jar" level="project" />
     <orderEntry type="library" scope="TEST" name="org.robolectric:robolectric:3.6.1@jar" level="project" />
     <orderEntry type="library" name="com.android.support:support-vector-drawable-26.1.0" level="project" />
