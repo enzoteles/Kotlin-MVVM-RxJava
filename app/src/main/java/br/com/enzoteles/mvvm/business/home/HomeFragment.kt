@@ -31,10 +31,8 @@ class HomeFragment: Fragment(){
     val nameTeam: String by lazy { arguments.getString(Business.TEAM_NAME) }
     lateinit var adapter: HomeAdapter
 
-    var proximosList: List<ProximosItem?>?= null
-
     override fun onCreateView(inflater: LayoutInflater?, container: ViewGroup?, savedInstanceState: Bundle?): View {
-        var view  = inflater!!.inflate(R.layout.home, container, false )
+        var view  = inflater!!.inflate(R.layout.details_item, container, false )
         return view
     }
 
@@ -74,7 +72,7 @@ class HomeFragment: Fragment(){
      * */
     private fun initProximos(proximos: List<ProximosItem?>?) {
 
-        val homeComponent = DaggerOnHomeComponent.builder().homeModule(HomeModule(proximosList, activity.baseContext)).build()
+        val homeComponent = DaggerOnHomeComponent.builder().homeModule(HomeModule(proximos, activity.baseContext)).build()
         adapter = homeComponent.provideHomeAdapter()
         recyclerview.adapter = adapter
         var layoutManager = StaggeredGridLayoutManager(1, StaggeredGridLayoutManager.VERTICAL)
